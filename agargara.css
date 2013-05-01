@@ -1,5 +1,8 @@
-html{
-	height:100%;font-size:100%;
+html,body{
+	height:100%;
+	font-size:100%;
+	padding: 0;
+	margin: 0;
 }
 
 body{
@@ -7,10 +10,14 @@ body{
 	background-size: contain;
     -webkit-background-size: contain;
     -moz-background-size: contain;
-    -o-background-size: contain; 
-	text-align:center;
-	font-size: 100%;
-	overflow:hidden;
+    -o-background-size: contain;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	/* overflow:hidden; */
+}
+
+div{
+	padding: 0;
+	margin: 0;
 }
 
 nav{
@@ -20,6 +27,7 @@ nav{
 	margin: 32px 0 0 0;
 	padding: 0;
 	overflow:hidden;
+	
 }
 
 nav ul {
@@ -33,18 +41,16 @@ nav ul {
 }
 
 nav li {
-   	margin:0;
-	padding:0;
     float: left;
     position:relative;
 	right:50%;
-	text-align: center;    
+	text-align: center;
 }
 
 nav li a{
 	display: block;
 	margin: 0;
-    padding: 12px 22%;
+    padding: 12px 24px;
 	text-decoration:none;
 	font-weight:bold;
 	font-size: 2em;
@@ -68,30 +74,64 @@ nav li a:active{
 
 h1{
 	font-size: 3em;
+	text-align: center;
+    margin: 0;
 }
 h1 > strong{
 	font-size: 1.5em;
 }
 
-#main ul{
-	list-style:none;
+h2{
+	margin: 0;
 }
 
-#main ul li{
-	padding: 15% 0;
+div#main{
+	height: 100%;
+}
+
+div.sliding-content{
+	padding: 0;
+	margin: 0;
+	min-height: 100%;
+}
+
+div.inner{
+	padding: 120px 0;
+	margin: 0;
+}
+
+div#home{
+	padding: 4% 0;
+	margin: 0;
+}
+
+div#about, div#portfolio, div#contact{
+	margin: 0;
+	padding: 0 20% 0 20%;
+	font-size:1.4em;
+}
+
+div ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#portfolio ul, div#contact ul{
+	padding: 1em 0;
 }
 
 @media only screen and (max-width: 800px) {
-	nav li a{ font-size: 1.6em; padding: 12px 16%;}
+	nav li a{ font-size: 1.6em; padding: 12px 20px;}
 	h1 { font-size: 2em; }
 }
 
 @media only screen and (max-width: 600px) {
-	nav li a{ font-size: 1.3em; padding: 12px 14%;}
+	nav li a{ font-size: 1.3em; padding: 12px 16px}
 	h1 { font-size: 1.5em; }
 }
 
 @media only screen and (max-width: 420px) {
-	nav li a{ font-size: 1em; padding: 12px 12%;}
+	nav li a{ font-size: 1em; padding: 12px 12px;}
 	h1 { font-size: 1em; }
 }

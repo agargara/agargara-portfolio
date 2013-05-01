@@ -3,48 +3,78 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>I'm David Cummings. I love to code and create.</title>
-	<meta name="description" content="I'm David Cummings. I love to code and create. I'm a coder, musician and digital designer."/>
+	<meta name="description" content="I'm David Cummings. I love to code and create."/>
 	<meta name="keywords" content="David, Cummings, Code, Development, Design, digital design">
 	<meta name="twitter:card" content="summary"/>
 	<meta name="twitter:site" content="@http://agargara.com"/>
 	<meta name='twitter:image' content='http://portfolio.agargara.com/images/logo.png'/>
-	<meta name="twitter:description" content="David Cummings loves to code and create. Hire him today."/>
+	<meta name="twitter:description" content="I'm David Cummings. I love to code and create."/>
 	<meta property="og:title" content="David Cummings Online Portfolio">
 	<meta property="og:url" content="http://portfolio.agargara.com">
 	<meta property="og:image" content="http://portfolio.agargara.com/images/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
 	<link rel='stylesheet' href='agargara.css' type='text/css' />
 </head>
-<body>
+<body id="top">
 	<nav class="cf">
 		<ul>
-			<li><a href="#" class="active">home</a></li>
+			<li><a href="#top" class="active">home</a><li>
 			<li><a href="#about">about</a></li>
 			<li><a href="#portfolio">portfolio</a></li>
 			<li><a href="#contact">contact</a></li>
 		</ul>
 	</nav>
 	<div id="main">
-	    <ul>
-	        <li>
-			    <h1 id="title">
+	    <div id="home" class="sliding-content">
+	    	<div class="inner">
+		    	<h1 id="title">
 					I'm <strong>David Cummings.</strong><br>
 					I love to <strong>code</strong> and <strong>create.</strong>
 				</h1>
-	        </li>
-	        <li id="about">
-	        	<h1 id="title">
-					I'm a musician and coder working as an English teacher in Wakayama, Japan. I can code HTML, CSS, and Java. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-				</h1>
-	        </li>
-	        <li id="portfolio">
-	            <a href="http://agargara.com">Agargara Music</a>
-	        </li>
-	        <li id="contact">
-	            <a href="mailto:agargara@gmail.com">E-mail Me!</a>
-	        </li>
-	    </ul>
+			</div>
+	    </div>
+	    <div id="about" class="sliding-content">
+	    	<div class="inner">
+		    	<h2>Hi, I'm David Cummings.</h2>
+		        <p>
+					I'm a musician and coder living in Japan.
+					I'm interested in digital audio, web development and more. My hobbies are composing, playing piano, studying Japanese and practicing judo.
+				</p>
+				<div id="skills">
+					<strong>Skills</strong>
+					<ul>
+						<li>HTML, CSS, Javascript</li>
+						<li>Java, PHP</li>
+						<li><abbr title="Digital Audio Workstations">DAWs</abbr></li>
+						<li>Max/MSP/Jitter</li>
+						<li>Composition</li>
+						<li>Sound design</li>
+						<li>Learning new things</li>
+					</ul>
+				</div>
+				<p>
+					For more details, see my <a href="cv.html">CV</a> or <a href="#contact">contact me</a>. I promise I don't bite.
+				</p>
+			</div>
+	    </div>
+	    <div id="portfolio" class="sliding-content">
+	    	<div class="inner">
+	    		<h2>Portfolio</h2>
+           		<ul>
+	            	<li><a href="http://agargara.com">Agargara Music</a></li>
+	            </ul>
+       		</div>
+        </div>
+        <div id="contact" class="sliding-content">
+        	<div class="inner">
+	        	<h2>Contact me!</h2>
+	        	<ul>
+	            	<li><a href="mailto:agargara@gmail.com">E-mail</a></li>
+	            	<li><a href="http://twitter.com/agargara">Twitter</a></li>
+	        	</ul>
+	        </div>
+        </div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="js/jquery.cbpContentSlider.min.js"></script>
+	<script src="js/slider.js"></script>
 </html>
