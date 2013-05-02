@@ -7,11 +7,11 @@
 	<meta name="keywords" content="David, Cummings, Code, Development, Design, digital design">
 	<meta name="twitter:card" content="summary"/>
 	<meta name="twitter:site" content="@http://agargara.com"/>
-	<meta name='twitter:image' content='http://portfolio.agargara.com/images/logo.png'/>
+	<meta name='twitter:image' content='http://thedavidcummings.com/images/logo.png'/>
 	<meta name="twitter:description" content="I'm David Cummings. I love to code and create."/>
 	<meta property="og:title" content="David Cummings Online Portfolio">
-	<meta property="og:url" content="http://portfolio.agargara.com">
-	<meta property="og:image" content="http://portfolio.agargara.com/images/logo.png">
+	<meta property="og:url" content="http://thedavidcummings.com">
+	<meta property="og:image" content="http://thedavidcummings.com/images/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
 	<link rel='stylesheet' href='agargara.css' type='text/css' />
 </head>
@@ -49,6 +49,7 @@
 						<li>Max/MSP/Jitter</li>
 						<li>Composition</li>
 						<li>Sound design</li>
+						<li>Japanese (conversational)</li>
 						<li>Learning new things</li>
 					</ul>
 				</div>
@@ -59,19 +60,104 @@
 	    </div>
 	    <div id="portfolio" class="sliding-content">
 	    	<div class="inner">
-	    		<h2>Portfolio</h2>
            		<ul>
-	            	<li><a href="http://agargara.com">Agargara Music</a></li>
+	            	<li class="cf">
+	            		<h2>
+		            		<a href="http://agargara.com">
+		            			Agargara Music
+		            		</a>
+		            	</h2>
+		            	<a href="http://agargara.com">
+		            		<img title="Agargara Music" src="images/agargara-screenshot.png">
+		            	</a>
+	            		<div class="description">
+	            		A personal music website built with Wordpress and custom templates.
+	            		Styled with a modified version of Daryl Koopersmith's <a href="http://wordpress.org/extend/themes/hum">Hum theme<a/>.
+	            		</div>
+	            	</li>
+	            	<li class="cf">
+	            		<h2>
+		            		<a href="http://pistonsource.iiichan.net">
+		            			Piston Source Records
+		            		</a>
+		            	</h2>
+		            	<a href="http://pistonsource.iiichan.net">
+		            		<img title="Piston Source" src="images/pistonsource-screenshot.png">
+		            	</a>
+	            		<div class="description">
+	            		A netlabel dedicated to releasing music made with <a href="http://hp.vector.co.jp/authors/VA022293/pxtone/">Piston Collage</a>. Written in 2008, the techniques used on this website are now somewhat dated, but the site is completely hand-coded with valid HTML and CSS. Styled to look like the program Piston Collage.
+	            		</div>
+	            	</li>
+	            	<li class="cf">
+	            		<h2>
+		            		<a href="https://github.com/agargara/film-score-generator">
+		            			Film Score Generator
+		            		</a>
+		            	</h2>
+		            	<a href="https://github.com/agargara/film-score-generator">
+		            		<img title="Film Score Generator" src="images/filmScoreGenerator-screenshot.png">
+		            	</a>
+	            		<div class="description">
+	            		A <a href="http://cycling74.com/products/max/">Max/MSP/Jitter</a> program that automatically scores videos. A database of music clips is analyzed and tagged with various aspects. The program analyzes a video as it plays and tries to select appropriate music clips from the database to match. <a href="http://vimeo.com/22379628">Watch a demo.</a>
+	            		</div>
+	            	</li>
+	            	<li class="cf">
+	            		<h2>
+		            		<a href="https://github.com/agargara/DodgeCity">
+		            			Dodge City
+		            		</a>
+		            	</h2>
+		            	<a href="https://github.com/agargara/DodgeCity">
+		            		<img title="Dodge City" src="images/dodgeCity-screenshot.png">
+		            	</a>
+	            		<div class="description">
+	            		A small game about dodging falling cubes. The graphics engine is coded from scratch. <a href="http://agargara.com/files/DodgeCity.zip">Download and play (executable .jar)</a>
+	            		</div>
+	            	</li>
+	            	<li class="cf">
+	            		<h2>
+		            		<a href="http://agargara.com/files/LSystems.maxpat">
+		            			Musical L-Systems
+		            		</a>
+		            	</h2>
+		            	<a href="http://agargara.com/files/LSystems.maxpat">
+		            		<img title="Musical L-Systems" src="images/lsystems-screenshot.png">
+		            	</a>
+	            		<div class="description">
+	            		<a href="https://en.wikipedia.org/wiki/L-system">Lindenmayer systems</a>, or L-systems, are grammars that are usually used to model organic structures. This is a Max/MSP program that uses the production rules of L-Systems to generate musical sequences. <a href="http://agargara.com/files/LSystems.maxpat" title="Download">Download the source</a>.
+	            		</div>
+	            	</li>
 	            </ul>
        		</div>
         </div>
         <div id="contact" class="sliding-content">
         	<div class="inner">
-	        	<h2>Contact me!</h2>
-	        	<ul>
-	            	<li><a href="mailto:agargara@gmail.com">E-mail</a></li>
-	            	<li><a href="http://twitter.com/agargara">Twitter</a></li>
-	        	</ul>
+				<div id="leftFormBox" class="cf">
+					<ul id="contactInfo">
+						<li>David Cummings</li>
+						<li>Wakayama, Japan</li>
+						<li>090 (6756) 6845</li>
+						<li><a href="mailto:david@TheDavidCummings.com?subject=Contact Request">david@TheDavidCummings.com</a></li>
+					</ul>
+				</div>
+				<div id="rightFormBox" class="cf">
+					<form action="contact.php" method="post" name="contactForm" id="contactForm">
+						<div id="nameBox" class="first formbox clearfix">
+							<label for="name">Name</label>
+							<input class="inputfield" type="text" name="name" id="name"/>	
+						</div>
+						<div id="emailBox" class="formbox clearfix">
+							<label for="email">E-Mail</label>
+							<input class="inputfield" type="text" name="email" id="email"/>	
+						</div>
+						<div id="messageBox" class="formbox clearfix">
+							<label for="message">Message</label>
+							<textarea rows="10" name="comingMessage" id="comingMessage"></textarea>
+						</div>
+						<input id="clear_btn" type="reset" name="clear" value="clear"> 
+						<input id="submit_btn" type="submit" name="submit" value="submit">
+					</form>
+				</div>
 	        </div>
         </div>
 	</div>

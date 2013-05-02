@@ -1,3 +1,5 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 html,body{
 	height:100%;
 	font-size:100%;
@@ -15,11 +17,7 @@ body{
 	/* overflow:hidden; */
 }
 
-div{
-	padding: 0;
-	margin: 0;
-}
-
+/** Navigation code */
 nav{
 	position:fixed;
 	width: 100%;
@@ -47,20 +45,22 @@ nav li {
 	text-align: center;
 }
 
-nav li a{
+nav a{
 	display: block;
 	margin: 0;
     padding: 12px 24px;
-	text-decoration:none;
 	font-weight:bold;
 	font-size: 2em;
-	color: black;
+	text-decoration:none;
+	color: #777777;;
 }
 
-nav li a:active{
+nav a.active{
+	color: black;
 	background-color: #f0f0f0;
 }
 
+/* End navigation code */
 .cf:before,
 .cf:after {
     content: " ";
@@ -70,6 +70,17 @@ nav li a:active{
 
 .cf {
     *zoom: 1; /* IE 6/7 fix */
+}
+
+div{
+	padding: 0;
+	margin: 0;
+}
+
+div ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 h1{
@@ -85,8 +96,20 @@ h2{
 	margin: 0;
 }
 
-div#main{
+#main{
 	height: 100%;
+}
+
+#main a{
+	text-decoration:none;
+	color: #1133bb;
+}
+
+#main a:hover{
+	text-decoration:underline;
+}
+
+#main a:visited{
 }
 
 div.sliding-content{
@@ -100,25 +123,66 @@ div.inner{
 	margin: 0;
 }
 
-div#home{
+#home{
 	padding: 4% 0;
 	margin: 0;
 }
 
-div#about, div#portfolio, div#contact{
+#about, #portfolio, #contact{
 	margin: 0;
 	padding: 0 20% 0 20%;
 	font-size:1.4em;
 }
 
-div ul{
-	list-style: none;
-	margin: 0;
+#portfolio ul, #contact ul{
 	padding: 0;
 }
 
-div#portfolio ul, div#contact ul{
-	padding: 1em 0;
+#portfolio h2{
+	padding: 0;
+	margin: 0 0 .5em 0;
+	display:block;
+}
+
+#portfolio h2 a{
+	color: black;
+}
+
+#portfolio h2 a:hover{
+	text-decoration: none;
+}
+
+#portfolio img{
+	float: left;
+	height: 50%;
+	width: 50%;
+	border: 2px solid black;
+}
+
+#portfolio .description{
+	padding: 0 0 0 5%;
+	margin: 0;
+	float: right;
+	display: inline-block;
+	width: 50%;
+}
+
+#portfolio ul li{
+	text-align:left;
+	margin-bottom: 1em;
+}
+
+/* Contact Form*/
+#leftFormBox {
+	float: left;
+	width: 50%;
+}
+
+#rightFormBox {
+	padding: 0 0 0 5%;
+	margin: 0;
+	float: right;
+	width: 50%;
 }
 
 @media only screen and (max-width: 800px) {

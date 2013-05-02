@@ -8,9 +8,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   version="1.1"
-   width="2305.4688"
-   height="1579.1211"
+   version="1.2"
+   width="2550.4688"
+   height="2037.0508"
    id="svg2">
   <defs
      id="defs4">
@@ -37,6 +37,39 @@
        id="linearGradient3853"
        xlink:href="#linearGradient3847"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="134.93579"
+       y1="953.28992"
+       x2="2440.4045"
+       y2="953.28992"
+       id="linearGradient3458"
+       xlink:href="#linearGradient3847"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="0"
+       y1="1989.5605"
+       x2="2550.4688"
+       y2="1989.5605"
+       id="linearGradient4234"
+       xlink:href="#linearGradient3847"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="0"
+       y1="1989.5605"
+       x2="2550.4688"
+       y2="1989.5605"
+       id="linearGradient3253"
+       xlink:href="#linearGradient3847"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(90.175293,-84.312744)" />
+    <linearGradient
+       x1="0"
+       y1="1018.5254"
+       x2="2550.4688"
+       y2="1018.5254"
+       id="linearGradient4029"
+       xlink:href="#linearGradient3847"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata7">
@@ -50,142 +83,185 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     transform="translate(-134.93579,-163.72937)"
-     id="layer1">
-    <text
-       x="2440.4045"
-       y="192.36218"
-       id="text2985"
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient3853);fill-opacity:1;stroke:none;font-family:monospace"><tspan
-         x="2440.4045"
-         y="192.36218"
-         id="tspan2987"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">&lt;!doctype html&gt;</tspan><tspan
-         x="2440.4045"
-         y="242.36218"
-         id="tspan2989"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">&lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;</tspan><tspan
-         x="2440.4045"
-         y="292.36218"
-         id="tspan2991"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">&lt;head&gt;</tspan><tspan
-         x="2451.4983"
-         y="342.36218"
-         id="tspan2995"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;meta charset=&quot;UTF-8&quot; /&gt; </tspan><tspan
-         x="2440.4045"
-         y="392.36218"
-         id="tspan2999"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;title&gt;I'm David Cummings. I love to code and create.&lt;/title&gt;</tspan><tspan
-         x="2440.4045"
-         y="442.36218"
-         id="tspan3001"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;meta name=&quot;description&quot; content=&quot;I'm David Cummings. I love to code and create. I'm a coder, musician and digital designer.&quot;/&gt;</tspan><tspan
-         x="2440.4045"
-         y="492.36218"
-         id="tspan3005"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;meta name=&quot;keywords&quot; content=&quot;David, Cummings, Code, Development, Design, digital design&quot;&gt;</tspan><tspan
-         x="2440.4045"
-         y="542.36218"
-         id="tspan3007"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot;/&gt;</tspan><tspan
-         x="2440.4045"
-         y="592.36218"
-         id="tspan3009"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;meta name=&quot;twitter:site&quot; content=&quot;@http://agargara.com&quot;/&gt;</tspan><tspan
-         x="2440.4045"
-         y="642.36218"
-         id="tspan3011"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;meta name='twitter:image' content='http://portfolio.agargara.com/images/logo.png'/&gt;</tspan><tspan
-         x="2440.4045"
-         y="692.36218"
-         id="tspan3015"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;meta name=&quot;twitter:description&quot; content=&quot;David Cummings loves to code and create. Hire him today.&quot;/&gt;</tspan><tspan
-         x="2440.4045"
-         y="742.36218"
-         id="tspan3017"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;meta property=&quot;og:title&quot; content=&quot;David Cummings Online Portfolio&quot;&gt;</tspan><tspan
-         x="2440.4045"
-         y="792.36218"
-         id="tspan3019"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;meta property=&quot;og:url&quot; content=&quot;http://portfolio.agargara.com&quot;&gt;</tspan><tspan
-         x="2440.4045"
-         y="842.36218"
-         id="tspan3023"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;meta property=&quot;og:image&quot; content=&quot;http://portfolio.agargara.com/images/logo.png&quot;&gt;</tspan><tspan
-         x="2451.4983"
-         y="892.36218"
-         id="tspan3027"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot;&gt;  </tspan><tspan
-         x="2440.4045"
-         y="942.36218"
-         id="tspan3029"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;link rel='stylesheet' href='agargara.css' type='text/css' /&gt;</tspan><tspan
-         x="2440.4045"
-         y="992.36218"
-         id="tspan3033"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">&lt;/head&gt;</tspan><tspan
-         x="2440.4045"
-         y="1042.3622"
-         id="tspan3035"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">&lt;body&gt;</tspan><tspan
-         x="2440.4045"
-         y="1092.3622"
-         id="tspan3037"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;nav class=&quot;cf&quot;&gt;</tspan><tspan
-         x="2440.4045"
-         y="1142.3622"
-         id="tspan3039"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">  &lt;ul&gt;</tspan><tspan
-         x="2440.4045"
-         y="1192.3622"
-         id="tspan3041"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">   &lt;li&gt;&lt;a href=&quot;&quot;&gt;home&lt;/a&gt;&lt;/li&gt;</tspan><tspan
-         x="2440.4045"
-         y="1242.3622"
-         id="tspan3043"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">   &lt;li&gt;&lt;a href=&quot;about/index.html&quot;&gt;about&lt;/a&gt;&lt;/li&gt;</tspan><tspan
-         x="2440.4045"
-         y="1292.3622"
-         id="tspan3045"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">   &lt;li&gt;&lt;a href=&quot;portfolio/index.html&quot;&gt;portfolio&lt;/a&gt;&lt;/li&gt;</tspan><tspan
-         x="2440.4045"
-         y="1342.3622"
-         id="tspan3047"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">   &lt;li&gt;&lt;a href=&quot;contact/index.html&quot;&gt;contact&lt;/a&gt;&lt;/li&gt;</tspan><tspan
-         x="2440.4045"
-         y="1392.3622"
-         id="tspan3049"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">  &lt;/ul&gt;</tspan><tspan
-         x="2440.4045"
-         y="1442.3622"
-         id="tspan3051"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;/nav&gt;</tspan><tspan
-         x="2440.4045"
-         y="1492.3622"
-         id="tspan3053"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;h1 id=&quot;title&quot;&gt;</tspan><tspan
-         x="2440.4045"
-         y="1542.3622"
-         id="tspan3055"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">  I'm &lt;strong&gt;David Cummings.&lt;/strong&gt;&lt;br&gt;</tspan><tspan
-         x="2440.4045"
-         y="1592.3622"
-         id="tspan3057"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">  I love to &lt;strong&gt;code&lt;/strong&gt; and &lt;strong&gt;create.&lt;/strong&gt;</tspan><tspan
-         x="2440.4045"
-         y="1642.3622"
-         id="tspan3059"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1"> &lt;/h1&gt;</tspan><tspan
-         x="2440.4045"
-         y="1692.3622"
-         id="tspan3061"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">&lt;/body&gt;</tspan><tspan
-         x="2440.4045"
-         y="1742.3622"
-         id="tspan3063"
-         style="text-align:end;text-anchor:end;fill:url(#linearGradient3853);fill-opacity:1">&lt;/html&gt;</tspan></text>
-  </g>
+  <flowRoot
+     transform="translate(90.175293,-84.312744)"
+     id="flowRoot3161"
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:monospace"><flowRegion
+       id="flowRegion3163"><rect
+         width="285.56979"
+         height="461.30505"
+         x="1010.4777"
+         y="903.75415"
+         id="rect3165" /></flowRegion><flowPara
+       id="flowPara3167"></flowPara></flowRoot>  <text
+     x="2550.4688"
+     y="28.632813"
+     id="text3169"
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:url(#linearGradient4029);fill-opacity:1;stroke:none;font-family:monospace"><tspan
+       x="2550.4688"
+       y="28.632813"
+       id="tspan3171"
+       style="fill:url(#linearGradient4029);fill-opacity:1">&lt;!doctype html&gt;</tspan><tspan
+       x="2550.4688"
+       y="78.632813"
+       id="tspan3173"
+       style="fill:url(#linearGradient4029);fill-opacity:1">&lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="128.63281"
+       id="tspan3175"
+       style="fill:url(#linearGradient4029);fill-opacity:1">&lt;head&gt;</tspan><tspan
+       x="2550.4688"
+       y="178.63281"
+       id="tspan3177"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;meta charset=&quot;UTF-8&quot; /&gt;</tspan><tspan
+       x="2550.4688"
+       y="228.63281"
+       id="tspan3179"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;title&gt;I'm David Cummings. I love to code and create.&lt;/title&gt;</tspan><tspan
+       x="2550.4688"
+       y="278.63281"
+       id="tspan3181"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;meta name=&quot;description&quot; content=&quot;I'm David Cummings. I love to code and create.&quot;/&gt;</tspan><tspan
+       x="2550.4688"
+       y="328.63281"
+       id="tspan3183"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;meta name=&quot;keywords&quot; content=&quot;David, Cummings, Code, Development, Design, digital design&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="378.63281"
+       id="tspan3185"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot;/&gt;</tspan><tspan
+       x="2550.4688"
+       y="428.63281"
+       id="tspan3187"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;meta name=&quot;twitter:site&quot; content=&quot;@http://agargara.com&quot;/&gt;</tspan><tspan
+       x="2550.4688"
+       y="478.63281"
+       id="tspan3189"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;meta name='twitter:image' content='http://portfolio.agargara.com/images/logo.png'/&gt;</tspan><tspan
+       x="2550.4688"
+       y="528.63281"
+       id="tspan3191"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;meta name=&quot;twitter:description&quot; content=&quot;I'm David Cummings. I love to code and create.&quot;/&gt;</tspan><tspan
+       x="2550.4688"
+       y="578.63281"
+       id="tspan3193"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;meta property=&quot;og:title&quot; content=&quot;David Cummings Online Portfolio&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="628.63281"
+       id="tspan3195"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;meta property=&quot;og:url&quot; content=&quot;http://portfolio.agargara.com&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="678.63281"
+       id="tspan3197"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;meta property=&quot;og:image&quot; content=&quot;http://portfolio.agargara.com/images/logo.png&quot;&gt;</tspan><tspan
+       x="2561.5625"
+       y="728.63281"
+       id="tspan3199"
+       style="fill:url(#linearGradient4029);fill-opacity:1">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot;&gt;  </tspan><tspan
+       x="2550.4688"
+       y="778.63281"
+       id="tspan3201"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;link rel='stylesheet' href='agargara.css' type='text/css' /&gt;</tspan><tspan
+       x="2550.4688"
+       y="828.63281"
+       id="tspan3203"
+       style="fill:url(#linearGradient4029);fill-opacity:1">&lt;/head&gt;</tspan><tspan
+       x="2550.4688"
+       y="878.63281"
+       id="tspan3205"
+       style="fill:url(#linearGradient4029);fill-opacity:1">&lt;body id=&quot;top&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="928.63281"
+       id="tspan3207"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;nav class=&quot;cf&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="978.63281"
+       id="tspan3209"
+       style="fill:url(#linearGradient4029);fill-opacity:1">  &lt;ul&gt;</tspan><tspan
+       x="2550.4688"
+       y="1028.6328"
+       id="tspan3211"
+       style="fill:url(#linearGradient4029);fill-opacity:1">   &lt;li&gt;&lt;a href=&quot;#top&quot; class=&quot;active&quot;&gt;home&lt;/a&gt;&lt;li&gt;</tspan><tspan
+       x="2550.4688"
+       y="1078.6328"
+       id="tspan3213"
+       style="fill:url(#linearGradient4029);fill-opacity:1">   &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;about&lt;/a&gt;&lt;/li&gt;</tspan><tspan
+       x="2550.4688"
+       y="1128.6328"
+       id="tspan3215"
+       style="fill:url(#linearGradient4029);fill-opacity:1">   &lt;li&gt;&lt;a href=&quot;#portfolio&quot;&gt;portfolio&lt;/a&gt;&lt;/li&gt;</tspan><tspan
+       x="2550.4688"
+       y="1178.6328"
+       id="tspan3217"
+       style="fill:url(#linearGradient4029);fill-opacity:1">   &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;contact&lt;/a&gt;&lt;/li&gt;</tspan><tspan
+       x="2550.4688"
+       y="1228.6328"
+       id="tspan3219"
+       style="fill:url(#linearGradient4029);fill-opacity:1">  &lt;/ul&gt;</tspan><tspan
+       x="2550.4688"
+       y="1278.6328"
+       id="tspan3221"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;/nav&gt;</tspan><tspan
+       x="2550.4688"
+       y="1328.6328"
+       id="tspan3223"
+       style="fill:url(#linearGradient4029);fill-opacity:1"> &lt;div id=&quot;main&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="1378.6328"
+       id="tspan3225"
+       style="fill:url(#linearGradient4029);fill-opacity:1">     &lt;div id=&quot;home&quot; class=&quot;sliding-content&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="1428.6328"
+       id="tspan3227"
+       style="fill:url(#linearGradient4029);fill-opacity:1">      &lt;div class=&quot;inner&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="1478.6328"
+       id="tspan3229"
+       style="fill:url(#linearGradient4029);fill-opacity:1">       &lt;h1 id=&quot;title&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="1528.6328"
+       id="tspan3231"
+       style="fill:url(#linearGradient4029);fill-opacity:1">     I'm &lt;strong&gt;David Cummings.&lt;/strong&gt;&lt;br&gt;</tspan><tspan
+       x="2550.4688"
+       y="1578.6328"
+       id="tspan3233"
+       style="fill:url(#linearGradient4029);fill-opacity:1">     I love to &lt;strong&gt;code&lt;/strong&gt; and &lt;strong&gt;create.&lt;/strong&gt;</tspan><tspan
+       x="2550.4688"
+       y="1628.6328"
+       id="tspan3235"
+       style="fill:url(#linearGradient4029);fill-opacity:1">    &lt;/h1&gt;</tspan><tspan
+       x="2550.4688"
+       y="1678.6328"
+       id="tspan3237"
+       style="fill:url(#linearGradient4029);fill-opacity:1">   &lt;/div&gt;</tspan><tspan
+       x="2550.4688"
+       y="1728.6328"
+       id="tspan3239"
+       style="fill:url(#linearGradient4029);fill-opacity:1">     &lt;/div&gt;</tspan><tspan
+       x="2550.4688"
+       y="1778.6328"
+       id="tspan3241"
+       style="fill:url(#linearGradient4029);fill-opacity:1">     &lt;div id=&quot;about&quot; class=&quot;sliding-content&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="1828.6328"
+       id="tspan3243"
+       style="fill:url(#linearGradient4029);fill-opacity:1">      &lt;div class=&quot;inner&quot;&gt;</tspan><tspan
+       x="2550.4688"
+       y="1878.6328"
+       id="tspan3245"
+       style="fill:url(#linearGradient4029);fill-opacity:1">       &lt;h2&gt;Hi, I'm David Cummings.&lt;/h2&gt;</tspan><tspan
+       x="2550.4688"
+       y="1928.6328"
+       id="tspan3247"
+       style="fill:url(#linearGradient4029);fill-opacity:1">          &lt;p&gt;</tspan><tspan
+       x="2550.4688"
+       y="1978.6328"
+       id="tspan3249"
+       style="fill:url(#linearGradient4029);fill-opacity:1">     I'm a musician and coder living in Japan.</tspan><tspan
+       x="2550.4688"
+       y="2028.6328"
+       id="tspan3251"
+       style="fill:url(#linearGradient4029);fill-opacity:1">     I'm interested in digital audio, web development and more. My hobbies are composing, playing piano, studying Japanese and practicing judo.</tspan></text>
 </svg>
