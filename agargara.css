@@ -9,12 +9,17 @@ html,body{
 
 body{
 	background: #fbfbfb url(images/html.svg) no-repeat fixed right;
-	background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
+	background-size: auto 100%;
+   -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	/* overflow:hidden; */
+}
+
+img{
+	max-width:100%;
+	height: auto;
 }
 
 /** Navigation code */
@@ -124,7 +129,7 @@ div.inner{
 }
 
 #home{
-	padding: 4% 0;
+	padding: 10% 0;
 	margin: 0;
 }
 
@@ -154,8 +159,7 @@ div.inner{
 
 #portfolio img{
 	float: left;
-	height: 50%;
-	width: 50%;
+	max-width: 50%;
 	border: 2px solid black;
 }
 
@@ -173,6 +177,10 @@ div.inner{
 }
 
 /* Contact Form*/
+#contact {
+		font-size: 1.5em;
+	}
+
 #leftFormBox {
 	float: left;
 	width: 50%;
@@ -185,17 +193,50 @@ div.inner{
 	width: 50%;
 }
 
+.inputfield{
+	display:block;
+	margin: 1em 0;
+	width:100%;
+}
+
+@media only screen and (max-width: 1024px) {
+	#about, #portfolio, #contact{
+		padding: 0 15% 0 15%;
+	}
+	#contact{
+		font-size: 1.1em;
+	}
+}
+
 @media only screen and (max-width: 800px) {
 	nav li a{ font-size: 1.6em; padding: 12px 20px;}
 	h1 { font-size: 2em; }
+	#about, #portfolio, #contact{
+		padding: 0 10% 0 10%;
+	}
+	#portfolio h2 { font-size: 1em; }
+	#portfolio .description{ font-size: 0.8em; }
 }
 
 @media only screen and (max-width: 600px) {
 	nav li a{ font-size: 1.3em; padding: 12px 16px}
 	h1 { font-size: 1.5em; }
+	#portfolio img{
+	float: none;
+	max-width: 100%;
+	border: 2px solid black;
+}
+	#portfolio .description{ float:none; display: block; width:100%;}
+	#contact #leftFormBox, #contact #rightFormBox{
+		font-size: 1.4em;
+		float: none;
+		padding: 0;
+		width: 100%;
+	}
+	#contact #leftFormBox{ padding-bottom:1em;}
 }
 
 @media only screen and (max-width: 420px) {
-	nav li a{ font-size: 1em; padding: 12px 12px;}
+	nav li a{ font-size: 1em; padding: 10px;}
 	h1 { font-size: 1em; }
 }
