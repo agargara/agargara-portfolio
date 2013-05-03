@@ -8,11 +8,11 @@ html,body{
 }
 
 body{
-	background: #fbfbfb url(images/html.svg) no-repeat fixed right;
+	background: #fbfbfb; /* url(images/html.svg) no-repeat fixed right;
 	background-size: auto 100%;
    -webkit-background-size: auto 100%;
     -moz-background-size: auto 100%;
-    -o-background-size: auto 100%;
+    -o-background-size: auto 100%; */
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	/* overflow:hidden; */
 }
@@ -181,22 +181,29 @@ div.inner{
 		font-size: 1.5em;
 	}
 
-#leftFormBox {
+#email span{
+	display: none;
+}
+#contact-left {
 	float: left;
+	margin: 0;
 	width: 50%;
 }
 
-#rightFormBox {
+#contact-right {
 	padding: 0 0 0 5%;
 	margin: 0;
 	float: right;
 	width: 50%;
 }
 
-.inputfield{
+form input, form textarea{
 	display:block;
-	margin: 1em 0;
 	width:100%;
+}
+
+form input#cemail, form textarea{
+	margin: 12px 0 0 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -227,16 +234,17 @@ div.inner{
 	border: 2px solid black;
 }
 	#portfolio .description{ float:none; display: block; width:100%;}
-	#contact #leftFormBox, #contact #rightFormBox{
+	#contact #contact-left, #contact #contact-right{
 		font-size: 1.4em;
 		float: none;
 		padding: 0;
 		width: 100%;
 	}
-	#contact #leftFormBox{ padding-bottom:1em;}
+	#contact #contact-left{ padding-bottom:1em;}
 }
 
 @media only screen and (max-width: 420px) {
 	nav li a{ font-size: 1em; padding: 10px;}
 	h1 { font-size: 1em; }
+	#contact {font-size: 1em;}
 }
