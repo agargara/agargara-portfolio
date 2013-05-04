@@ -1,7 +1,18 @@
-var s = skrollr.init(forceHeight: false);
+function goToByScroll(id){
+	$('html,body').animate({scrollTop: $(id).offset().top},'slow');
+}
 
-skrollr.menu.init(s, {
-    animate: true, //skrollr will smoothly animate to the new position using `animateTo`.
-    duration: 500, //How long the animation should take in ms.
-    easing: 'sqrt' //The easing function to use.
-});
+function highlightNav(id){
+	$("nav a").removeClass("active");
+  	$(id).addClass("active");
+}
+
+window.onload = function(){
+	$("nav a").click(function(){
+		goToByScroll($(this).attr('href'));
+		return false;
+	});
+	$(".sliding-content").waypoint(function(direction) {
+  		highlightNav($('nav a[href$="'+$(this).attr('id')+'"]'));
+	});
+};
