@@ -206,6 +206,9 @@ form input#cemail, form textarea{
 	margin: 12px 0 0 0;
 }
 
+form .submit {
+	margin: 12px 0;
+}
 @media only screen and (max-width: 1024px) {
 	#about, #portfolio, #contact{
 		padding: 0 15% 0 15%;
@@ -228,23 +231,26 @@ form input#cemail, form textarea{
 @media only screen and (max-width: 600px) {
 	nav li a{ font-size: 1.3em; padding: 12px 16px}
 	h1 { font-size: 1.5em; }
+	div.inner{ padding: 100px 0 0 0; }
 	#portfolio img{
-	float: none;
-	max-width: 100%;
-	border: 2px solid black;
-}
+		float: none;
+		max-width: 100%;
+		border: 2px solid black;
+	}
 	#portfolio .description{ float:none; display: block; width:100%;}
-	#contact #contact-left, #contact #contact-right{
+	#contact-left, #contact-right{
 		font-size: 1.4em;
 		float: none;
 		padding: 0;
 		width: 100%;
+		text-align: center; 
 	}
 	#contact #contact-left{ padding-bottom:1em;}
 }
 
 @media only screen and (max-width: 420px) {
+	div.inner{ padding: 80px 0 0 0; }
 	nav li a{ font-size: 1em; padding: 10px;}
 	h1 { font-size: 1em; }
-	#contact {font-size: 1em;}
+	#contact-left, #contact-right {font-size: 1em;}
 }
