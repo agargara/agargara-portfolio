@@ -11,10 +11,11 @@ window.onload = function(){
 		goToByScroll($(this).attr('href'));
 		return false;
 	});
+	// Highlight hashed section
+	if(window.location.hash) {
+	  var hash = window.location.hash.substring(0);
+	  $("nav a").removeClass("active");
+	  $('nav a[href$="' + hash + '"]').addClass("active");
+	  goToByScroll($('nav a[href$="' + hash + '"]').attr('href'));
+	}
 }
-
- $(function(){
-   var path = location.pathname.substring(1);
-   if ( path )
-     $('#sidebar_content a[href$="' + path + '"]').attr('class', 'selected');
- });

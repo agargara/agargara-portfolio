@@ -35,27 +35,6 @@ if(strlen($message) < 5) {
   }
 }
 
-if($errors) {
-  // Output errors and die with a failure message
-  $errortext = "";
-  foreach($errors as $error) {
-    $errortext .= "<li>".$error."</li>";
-  }
-  die("<span class='failure'>The following errors occured:<ul>". $errortext ."</ul></span>");
-}
-
-// Send the email
-$to = "david@thedavidcummings.com";
-$subject = "Contact Form from $name";
-$message = "$message";
-$headers = "From: $email";
-
-mail($to, $subject, $message, $headers);
-
-// Die with a success message
-die("<meta http-equiv='refresh' content='10;url=http://thedavidcummings.com'><span class='success'>Thank you for your message! 
-  You should be redirected back to <a href='http://thedavidcummings.com'>my website</a> in a moment.</span>");
-
 // A function that checks to see if
 // an email is valid
 function validEmail($email)

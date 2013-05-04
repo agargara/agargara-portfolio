@@ -1,3 +1,19 @@
+<?php
+if ( $_POST ) {
+	$sentMail = false;
+	// Validate input
+	require 'validate.php';
+	//Jump if no errors.
+	if(!$errors) {
+		// Send the email
+		$to = "david@thedavidcummings.com";
+		$subject = "Contact Form from $name";
+		$message = "$message";
+		$headers = "From: $email";
+		mail($to, $subject, $message, $headers);
+		$sentMail = true;
+	}
+}?>
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
@@ -145,13 +161,45 @@
 					</ul>
 				</div>
 				<div id="contact-right" class="cf">
-					<?php include 'validate.php'; ?>
-					<form class="cmxform" id="contactForm" method="get" action="index.html">
-						<input id="cname" name="name" size="25"  class="required" minlength="2" placeholder="Your Name"/>
-						<input id="cemail" name="email" size="25"  class="required email"  placeholder="Your e-mail"/>
-						<textarea id="ccomment" name="comment" rows="8"  class="required" placeholder="Your Message"></textarea>
+					<form class="cmxform" id="contactForm" method="post" action="index.php#contact"
+							<?php
+							if ( $sentMail) {
+							print ' style="display:none"';
+							}
+							?>
+					>
+						<input id="cname" name="name" size="25"  class="required" minlength="2" placeholder="Your Name"
+							<?php
+							if ( $_POST['name'] ) {
+							print ' value="' . $_POST['name'] . '"';
+							}
+							?>
+						/>
+						<input id="cemail" name="email" size="25"  class="required email"  placeholder="Your e-mail"
+							<?php
+							if ( $_POST['email'] ) {
+							print ' value="' . $_POST['email'] . '"';
+							}
+							?>
+						/>
+						<textarea id="ccomment" name="comment" rows="8"  class="required" placeholder="Your Message"><?php
+								if ( $_POST['comment'] ) {
+								print $_POST['comment'];
+								}
+							?></textarea>
 						<input class="submit" type="submit" value="Send!">
 					</form>
+					<?php
+						if($errors) {
+						  print "<span class='error'><ul>";
+						  foreach($errors as $error) {
+						    print "<li>".$error."</li>";
+						  }
+						  print "</ul></span>";
+						}else if($sentMail) {
+							print "Message sent successfully! Thank you!";
+						}
+					?>
 				</div>
 	        </div>
         </div>
@@ -161,7 +209,8 @@
 		m=""; for (i=0; i<s.length; i++) m+=String.fromCharCode(s.charCodeAt(i)-1); document.getElementById('email').innerHTML=(m);
 	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
 	<script src="js/slider.js"></script>
-	<!-- <script src="js/jquery.validate.min.js"></script>
-	<script src="js/jquery.form.js"></script> -->
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.form.js"></script>
 </html>
