@@ -7,9 +7,9 @@ if ( $_POST ) {
 	if(!$errors) {
 		// Send the email
 		$to = "david@thedavidcummings.com";
-		$subject = "Contact Form from $name";
+		$subject = "Contact Form from $name ($email)";
 		$message = "$message";
-		$headers = "From: $email";
+		$headers = "From: david@thedavidcummings.com";
 		mail($to, $subject, $message, $headers);
 		$sentMail = true;
 	}
