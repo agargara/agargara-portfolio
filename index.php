@@ -34,7 +34,7 @@ if ( $_POST ) {
 <body id="top">
 	<nav class="cf">
 		<ul>
-			<li><a href="#top" class="active">home</a><li>
+			<li><a href="#home" class="active">home</a><li>
 			<li><a href="#about">about</a></li>
 			<li><a href="#portfolio">portfolio</a></li>
 			<li><a href="#contact">contact</a></li>
