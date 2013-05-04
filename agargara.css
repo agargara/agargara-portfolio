@@ -229,6 +229,9 @@ form .submit {
 }
 
 @media only screen and (max-width: 600px) {
+	nav{
+	margin: 0 0 0 0;
+	}
 	nav li a{ font-size: 1.3em; padding: 12px 16px}
 	h1 { font-size: 1.5em; }
 	div.inner{ padding: 100px 0 0 0; }

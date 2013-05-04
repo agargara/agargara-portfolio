@@ -154,7 +154,7 @@ if ( $_POST ) {
 					<ul id="contactInfo">
 						<li>David Cummings</li>
 						<li>Wakayama, Japan</li>
-						<li>090 (6756) 6845</li>
+						<li>+81 090 (6756) 6845</li>
 						<li><span id="email">
 							david@<span>rem@veme.</span>TheDavidCummings.com
 						</span></li>
