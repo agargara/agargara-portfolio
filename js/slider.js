@@ -10,9 +10,11 @@ function highlightNav(id){
 window.onload = function(){
 	$("nav a").click(function(){
 		goToByScroll($(this).attr('href'));
+		highlightNav(this);
 		return false;
 	});
+	/*
 	$(".sliding-content").waypoint(function(direction) {
   		highlightNav($('nav a[href$="'+$(this).attr('id')+'"]'));
-	});
+	});*/
 };
