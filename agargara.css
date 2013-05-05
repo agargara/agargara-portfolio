@@ -178,12 +178,16 @@ div.inner{
 
 /* Contact Form*/
 #contact {
-		font-size: 1.5em;
-	}
-
+	font-size: 1.5em;
+}
+#contact h1{
+	font-size: 2em;
+	padding-bottom: 1em;
+}
 #email span{
 	display: none;
 }
+
 #contact-left {
 	float: left;
 	margin: 0;
@@ -234,13 +238,17 @@ form .submit {
 	}
 	nav li a{ font-size: 1.3em; padding: 12px 16px}
 	h1 { font-size: 1.5em; }
-	div.inner{ padding: 100px 0 0 0; }
+	div.inner{ padding: 60px 0 0 0; }
 	#portfolio img{
 		float: none;
 		max-width: 100%;
 		border: 2px solid black;
 	}
 	#portfolio .description{ float:none; display: block; width:100%;}
+	#contact h1{
+		font-size: 1.5em;
+		padding: .5em 0;
+	}
 	#contact-left, #contact-right{
 		font-size: 1.4em;
 		float: none;
@@ -252,8 +260,12 @@ form .submit {
 }
 
 @media only screen and (max-width: 420px) {
-	div.inner{ padding: 80px 0 0 0; }
+	div.inner{ padding: 50px 0 0 0; }
 	nav li a{ font-size: 1em; padding: 10px;}
 	h1 { font-size: 1em; }
+	#contact h1{
+		font-size: 1em;
+		padding: .5em 0;
+	}
 	#contact-left, #contact-right {font-size: 1em;}
 }

@@ -149,7 +149,6 @@ if ( $_POST ) {
         <div id="contact" class="sliding-content">
         	<div class="inner">
         		<h1>I'd love to hear from you.</h1>
-        		<br>
 				<div id="contact-left" class="cf">
 					<ul id="contactInfo">
 						<li>David Cummings</li>
