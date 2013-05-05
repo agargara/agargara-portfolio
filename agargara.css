@@ -139,6 +139,23 @@ div.inner{
 	font-size:1.4em;
 }
 
+#about-left {
+	float: left;
+	margin: 0;
+	width: 25%;
+}
+
+#about-left img{
+	max-width: 100%;
+}
+
+#about-right {
+	padding: 0 0 0 1em;
+	margin: 0;
+	float: right;
+	width: 75%;
+}
+
 #portfolio ul, #contact ul{
 	padding: 0;
 }
@@ -184,13 +201,13 @@ div.inner{
 #email span{
 	display: none;
 }
-#contact-left {
+#contact-left{
 	float: left;
 	margin: 0;
 	width: 50%;
 }
 
-#contact-right {
+#contact-right{
 	padding: 0 0 0 5%;
 	margin: 0;
 	float: right;

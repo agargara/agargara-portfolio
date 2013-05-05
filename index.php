@@ -51,11 +51,19 @@ if ( $_POST ) {
 	    </div>
 	    <div id="about" class="sliding-content">
 	    	<div class="inner">
-		    	<h2>Hi, I'm David Cummings.</h2>
-		        <p>
-					I'm a musician and coder living in Japan.
-					I'm interested in digital audio, web development and more. My hobbies are composing, playing piano, studying Japanese and practicing judo.
-				</p>
+		    	<div class="cf">
+		    		<div id="about-left">
+				    	<img src="images/portrait.jpg">
+				    </div>
+			        <div id="about-right">
+			        	<h2>Hi, I'm David Cummings.</h2>
+			        	<p>
+						I'm a musician and coder living in Japan. I love computers and I love to create things.
+						I'm especially interested in digital audio and web development. 
+						My hobbies are composing, playing piano, cooking, studying Japanese and practicing judo.
+						</p>
+					</div>
+				</div>
 				<div id="skills">
 					<strong>Skills</strong>
 					<ul>
