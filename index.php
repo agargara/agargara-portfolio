@@ -132,6 +132,17 @@ if ( $_POST ) {
 	            	</li>
 	            	<li class="cf">
 	            		<h2>
+		            		<a href="http://www.katerafter.com/#!choreography/vstc1=project-orpheus">Project Orpheus</a>
+		            	</h2>
+		            	<a href="http://www.katerafter.com/#!choreography/vstc1=project-orpheus">
+		            		<img title="Project Orpheus" src="images/project-orpheus.png">
+		            	</a>
+	            		<div class="description">
+	            		A dance project by <a href="http://katerafter.com">Kate Rafter</a> for which I composed some music. <br><a href="http://www.youtube.com/watch?v=rCKMSLu6Wc4">View the trailer on youtube.</a>
+	            		</div>
+	            	</li>
+	            	<li class="cf">
+	            		<h2>
 		            		<a href="http://pistonsource.iiichan.net">
 		            			Piston Source Records
 		            		</a>
