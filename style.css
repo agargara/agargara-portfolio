@@ -22,12 +22,27 @@ img{
 	height: auto;
 }
 
+div#logo{
+	text-align: center;
+}
+img#logo{
+	max-height: 50%;
+}
+
+div#list{
+	position: absolute;
+}
+
+div#main{
+	padding: 100px 0 0 0;
+}
+
 /** Navigation code */
 nav{
 	position:fixed;
 	width: 100%;
 	background-color: #ffffff;
-	margin: 32px 0 0 0;
+	margin: 0;
 	padding: 0;
 	overflow:hidden;
 	

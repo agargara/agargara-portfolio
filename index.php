@@ -35,12 +35,14 @@ if ( $_POST ) {
 <body id="top">
 	<nav class="cf">
 		<ul>
-			<li><a href="#sell" class="active">物を売る</a><li>
+			<li><a href="#sell">物を売る</a><li>
 			<li><a href="#buy">物を買う</a></li>
 		</ul>
 	</nav>
 	<div id="main">
-		Item list here
+		<div id="logo">
+			<img id="logo" src="images/logo.jpg">
+		</div>
 	</div>
     <div id="contact">
 		<form class="cmxform" id="contactForm" method="post" action="index.php#contact"
@@ -85,6 +87,8 @@ if ( $_POST ) {
 	</div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/taffy-min.js"></script>
+<script src="js/dokofuri.js"></script>
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/jquery.form.js"></script>
 </html>
