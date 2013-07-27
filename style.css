@@ -81,6 +81,8 @@ nav a.active{
 }
 
 /* End navigation code */
+
+/* CLEAR FIX */
 .cf:before,
 .cf:after {
     content: " ";
@@ -91,6 +93,30 @@ nav a.active{
 .cf {
     *zoom: 1; /* IE 6/7 fix */
 }
+
+/** Item lists */
+ul.items li
+{   
+	float: left;
+	background: #efefef;
+	height: 100px;
+	width: 27.333333%;
+	border: 0; 
+	margin: 2%; 
+	padding: 1%;
+}
+
+ul.items li .icon
+{
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+ul.items.selected li{
+	width: 94%;
+	height: 700px;
+}
+/* End item lists */
 
 div{
 	padding: 0;
